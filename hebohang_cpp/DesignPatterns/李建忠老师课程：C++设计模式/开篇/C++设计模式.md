@@ -26,7 +26,6 @@
 
 抽象思维同样重要，其核心是帮助我们能更好地管理代码复杂度，当然底层思维是重要的，两个思维需要并重，但是单论设计模式而言更偏向学习抽象思维：
 
-![image-20211018224710745](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211018224710745.png)
 
 ### 软件设计复杂的根本原因与解决方法
 
@@ -59,7 +58,8 @@
 
 ### 重新认识面向对象
 
-![image-20211018231228608](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211018231228608.png)
+![image-20211018231228608](https://user-images.githubusercontent.com/60227429/138050274-244a757c-75d6-4b2f-9514-41092b418110.png)![image-20211018231228608](https://user-images.githubusercontent.com/60227429/138050295-d74cc3af-07ad-40ca-97cc-5e6527e93587.png)
+
 
 责任是思考类设计的一个非常重要的观点。
 
