@@ -1,6 +1,5 @@
 # C++设计模式
 
-[TOC]
 
 “计算机科学领域的任何问题都可以通过增加一个间接的中间层来解决”
 “Any problem in computer science can be solved by another layer of indirection.”
@@ -58,7 +57,7 @@
 
 ### 重新认识面向对象
 
-![image-20211018231228608](https://user-images.githubusercontent.com/60227429/138050274-244a757c-75d6-4b2f-9514-41092b418110.png)![image-20211018231228608](https://user-images.githubusercontent.com/60227429/138050295-d74cc3af-07ad-40ca-97cc-5e6527e93587.png)
+![image-20211018231228608](https://user-images.githubusercontent.com/60227429/138050274-244a757c-75d6-4b2f-9514-41092b418110.png)!
 
 
 责任是思考类设计的一个非常重要的观点。
@@ -146,7 +145,7 @@ void MainForm::OnPaint(const PaintEventArgs& e){
 
 
 
-![image-20211018234750685](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211018234750685.png)
+![image-20211018234750685](https://user-images.githubusercontent.com/60227429/138050648-ec85e373-aa99-4cd4-a167-470de86b9bf2.png)
 
 MainForm依赖于Line和Rect，这违反了依赖倒置原则：高层模块(稳定)依赖于低层模块(变化)
 
@@ -154,7 +153,8 @@ MainForm依赖于Line和Rect，这违反了依赖倒置原则：高层模块(稳
 
 而第二种方式则做了一个中间（抽象）层：
 
-![image-20211018235153858](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211018235153858.png)
+![image-20211018235153858](https://user-images.githubusercontent.com/60227429/138050731-433accda-28a4-485c-81f5-d5fe79d608ca.png)
+
 
 他们都依赖一层抽象Shape（MainForm中有vector<Shape*>，而Line和Rect则直接继承自Shape），并且抽象Shape不依赖于实现细节，即不依赖Line和Rect这些，而实现细节依赖于抽象。因此这里实现了一个隔离变化（把Line、Rect这样的变化隔离出来了），符合依赖倒置原则。
 
@@ -236,7 +236,8 @@ MainForm依赖于Line和Rect，这违反了依赖倒置原则：高层模块(稳
 
 ## 面向接口编程
 
-![image-20211019001911832](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211019001911832.png)
+![image-20211019001911832](https://user-images.githubusercontent.com/60227429/138050779-c07fe47c-63c5-48b6-8ff5-635bcd663f48.png)
+
 
 
 
