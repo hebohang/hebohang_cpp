@@ -236,7 +236,7 @@ public:
 
 UML结构图：
 
-![image-20211020162104049](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211020162104049.png)
+![image-20211020162104049](https://user-images.githubusercontent.com/60227429/139317836-3601ccfb-8951-4fea-b623-661d829e706b.png)
 
 与前面的代码对应：Product就是ISplitter，ConcreteProduct就是那些具体的Splitter，Creator就是抽象的工厂基类SplitterFactory，而ConcreteCreator就是那些具体的工厂类如BinarySplitterFactory、TxtSplitterFactory等。而MainForm只和最上面的Product和Creator依赖。
 
@@ -489,7 +489,8 @@ public:
 
 同样最后回到UML结构图：
 
-![image-20211020165257731](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211020165257731.png)
+![image-20211020165257731](https://user-images.githubusercontent.com/60227429/139317927-fe70db9d-bc5a-414c-80a7-77d305923cf6.png)
+
 
 AbstractFactory是稳定的，这里相当于IDBFactory，里头的两个方法：CreateProductA和CreateProductB就相当于里头的两个函数CreateDBConnection和CreateDBCommand；
 
@@ -625,7 +626,8 @@ public:
 
 先看老师的PPT：
 
-![image-20211020173312142](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211020173312142.png)
+
+![image-20211020173312142](https://user-images.githubusercontent.com/60227429/139317965-74c2e1af-2452-4374-bdcd-500162e8b214.png)
 
 
 
@@ -639,7 +641,8 @@ public:
 
 类图如下：
 
-![image-20211020173222538](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211020173222538.png)
+![image-20211020173222538](https://user-images.githubusercontent.com/60227429/139318005-991b4a5a-96fe-4085-b73b-90b06c576bcf.png)
+
 
 
 
@@ -661,7 +664,8 @@ public:
 
 ### 总结
 
-![image-20211020173855771](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211020173855771.png)
+![image-20211020173855771](https://user-images.githubusercontent.com/60227429/139318059-6cdce04e-91e9-4018-a90f-4018b33c7bf5.png)
+
 
 > 对于C++可能序列化不太方便，那么直接就拷贝构造函数就很好了，写对拷贝构造函数。
 
@@ -848,7 +852,8 @@ public:
 
 回到UML类图：
 
-![image-20211020180819767](C:\Users\51906\AppData\Roaming\Typora\typora-user-images\image-20211020180819767.png)
+
+![image-20211020180819767](https://user-images.githubusercontent.com/60227429/139318121-99469358-1433-4cc4-b80a-cd088fbdddca.png)
 
 
 
